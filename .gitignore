@@ -1,0 +1,21 @@
+
+# Pycharm files
+.idea/
+
+#------------------------------------#
+# Server .gitignore (DONT TOUCH)     #
+#------------------------------------#
+# Ignoring the Virtual  Environment
+server/venv/
+
+
+# Ignoring cached files
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Ignorgit ing Sqlite Database
+db.sqlite3
+db.sqlite3-journal
+server/*.sqlite3
